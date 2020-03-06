@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:100,200,300,400,500,600,700|sans-serif:100,200,300,400,500,600,700');
+
+/*----------Special Padding / Margin / Text----------*/
+
+/*---------------Colours--------------*/
+
+/*---------------Alert Heading---------*/
+
+.site-wide-alert a {
+    padding: 0.2rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.3rem;
+    margin: 0.3rem;
+    color: #fafafa;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50%;
+    background-color: #C43232;
+    transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+}
+
+.site-wide-alert a:hover {
+    background-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
+    text-decoration: none;
+}
+
+/*------------Navbar----------------*/
+
+/*-------------Images------*/
+
+.hot-news-image {
+    position: relative;
+    height: 65vh;
+    background: url(../images/monkees.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.heyhey-image {
+    position: relative;
+    height: 80vh;
+    background: url(../myimages/heyhey.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.eventsandtickets-image {
+    position: relative;
+    height: 80vh;
+    background: url(../myimages/eventsandtickets.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.celebration-image {
+    position: relative;
+    height: 60vh;
+    background: url(../myimages/celebration.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*-------------Containers-------------*/
+
+.main-video-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+}
+
+.timeline-container {
+    padding: 10px;
+    margin: 0px;
+}
+
+.album-container {
+    padding: 10px;
+    margin: 0px;
+}
+
+.music-container {
+    margin: 40px 0;
+}
+
+/*----------------Video---------------*/
+
+.video-notice {
+    margin: 5px;
+    padding: 5px;
+    font-family: Crimson Text, serif;
+    font-variant: small-caps;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    color: #C43232
+}
+
+.video-bg {
+    background-color: #f7eed4;
+    padding-right: 15px;
+}
+
+.video-image {
+    padding: 10px;
+    margin: 10px;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+/*-------------Music--------------*/
+
+.music-background h5 {
+    margin-top: 5px;
+    font-family: Crimson Text, serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sound-control {
+    width: 80%;
+    max-width: 330px;
+    margin-top: 20px;
+}
+
+/*------------Discography----------*/
+
+.album-cover-disco {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-cover-image-music {
+    Height: 190px;
+    Width: 190px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*------------Band Carousel-----------*/
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.myimages {
+    display: none;
+}
+
+.dots-circles {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    /*Timing allows user to read narrative*/
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/*---------------Social Media---------------*/
+
+/* To include styling for social media fonts > font awesome */
+
+.bg-color-social-container {
+    background-color: #6CB8AC;
+    min-height: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.fa-facebook:hover {
+    background: #3b5998;
+    /*Facebook Blue*/
+    color: #ffffff;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    /*Twitter Blue*/
+    color: #ffffff;
+}
+
+.fa-youtube:hover {
+    background: #E62117;
+    /*Youtube Red*/
+    color: #ffffff;
+}
+
+.fa-instagram:hover {
+    background: #8a3ab9;
+    /*Instagram Purple*/
+    color: #ffffff;
+}
+
+.fa-spotify:hover {
+    background: #1ED760;
+    /*Spotify Green*/
+    color: #ffffff;
+}
+
+/*-------------Block Dividers---------*/
+
+/*---------------Buttons--------------*/
+
+.btn-cta {
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+}
+
+.btn-red {
+    color: #fafafa;
+    background-color: #C43232;
+    border-color: #C43232;
+    font-family: Crimson Text, serif;
+    font-weight: 300;
+}
+
+.btn-green {
+    color: #fafafa;
+    background-color: #6CB8AC;
+    border-color: #6CB8AC;
+    font-family: Crimson Text, serif;
+    font-weight: 300;
+}
+
+.btn-red:hover,
+
+.btn-red:active,
+
+.btn-red:focus,
+
+.btn-red:active:focus {
+    background-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
+    border-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
+    color: #fafafa;
+}
+
+.book-tickets-details button {
+    font-size: 14px;
+    font: bold;
+}
+
+.check-tickets-details a {
+    background-color: #C43232;
+    border-color: #C43232;
+    color: #fafafa;
+    font-family: bangers, cursive;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 65px;
+    text-align: center;
+}
+
+.check-tickets-details a:hover,
+.book-tickets-details a:hover {
+    background-color: #6CB8AC;
+    /*Change to green once hovered*/
+    border-color: #6CB8AC;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    /*Opera*/
+    -moz-transition: all 0.5s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out;
+    /*Apple*/
+}
+
+.booking-writeup button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #990099;
+    /*lilac*/
+    border-color: #990099;
+    color: #ffccff;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 120px;
+}
+
+.booking-writeup button:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #660066;
+    /*purple*/
+    border-color: #660066;
+    color: #fafafa;
+}
+
+/*--------------Media Queries---------*/
+
