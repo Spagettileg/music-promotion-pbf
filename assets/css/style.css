@@ -2,7 +2,10 @@
 
 /*----------Special Padding / Margin / Text----------*/
 
-
+ul {
+  /* removes bullet points from unordered list */
+  list-style-type: none;
+}
 
 h6 {
     color: #FBF27C;
@@ -285,6 +288,11 @@ h6 {
   font-weight: 400;
   color: #FBF27C;
   /*Custard Yellow*/
+}
+
+.lower-footer {
+  color: #FBF27C;
+  /*Custard Yellow*/  
 }
 
 /*---------------Social Media---------------*/
