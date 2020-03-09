@@ -278,9 +278,9 @@ h6 {
 
 #footer {
   background-color: #305C5C;
-  /*Duck Egg Blue*/
+  /*Dark Green*/
   border-color: #305C5C;
-  /*Duck Egg Blue*/
+  /*Dark Green*/
 }
 
 .footer-text li a {
@@ -299,11 +299,16 @@ h6 {
 
 /* To include styling for social media fonts > font awesome */
 
-.bg-color-social-container {
-    background-color: #6CB8AC;
-    min-height: 20px;
-    margin: 0;
-    padding-top: 10px;
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram, 
+.fa-spotify {
+  background-color: #FBF27C;
+  /* custard yellow */    
+  font-size: 2.5rem;
+  color: #305C5C;
+  /*Dark Green*/
 }
 
 .fa-facebook:hover {
