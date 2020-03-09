@@ -264,6 +264,22 @@
     }
 }
 
+/*---------------Footer---------------------*/
+
+#footer {
+  background-color: #587E7F;
+  /*Duck Egg Blue*/
+  border-color: #587E7F;
+  /*Duck Egg Blue*/
+}
+
+.footer-text li a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FBF27C;
+  /*Custard Yellow*/
+}
+
 /*---------------Social Media---------------*/
 
 /* To include styling for social media fonts > font awesome */
