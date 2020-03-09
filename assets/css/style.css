@@ -40,6 +40,19 @@ h6 {
 
 /*------------Navbar----------------*/
 
+#navbarSupportedContent ul li a {
+    font-weight: 600;
+}
+
+#navbarSupportedContent ul li a:hover {
+    font-weight: 800;
+    color: #5C835A;
+    /*Sage Green*/
+    text-shadow: 4px 2px #f2f2f2;
+    /*Light Grey Shadow*/
+}
+
+
 /*-------------Images------*/
 
 .hot-news-image {
