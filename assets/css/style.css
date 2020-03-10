@@ -66,10 +66,10 @@ h6 {
 
 /*-------------Images------*/
 
-.hot-news-image {
+#main-image {
     position: relative;
-    height: 65vh;
-    background: url(../images/monkees.jpg) no-repeat center center fixed;
+    width: 100%;
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,7 +77,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*required to manage the horixontal centering of the 
+    /*required to manage the horizontal centering of the 
     group image design*/
 }
 
@@ -126,16 +126,11 @@ h6 {
     group image design*/
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 /*-------------Containers-------------*/
+
+.main-image-container {
+    padding: 0;
+}
 
 .main-video-container {
     margin-left: 0;
