@@ -7,6 +7,10 @@ ul {
   list-style-type: none;
 }
 
+ul .active {
+    font-size: 1.3em;
+}
+
 h6 {
     color: #FBF27C;
 }
@@ -40,16 +44,23 @@ h6 {
 
 /*------------Navbar----------------*/
 
-#navbarSupportedContent ul li a {
-    font-weight: 600;
+.nav-link {
+  transition: 0.3s ease;
+  background: #FFFFFF;
+  color: #587E7F;
+  font-size: 1.25rem;
+  text-decoration: none;
+  border-top: 0.0625rem solid #5C835A;
+  border-bottom: 0.0625rem solid #5C835A;
+  padding: 20px 0;
+  margin: 0 20px;
 }
 
-#navbarSupportedContent ul li a:hover {
-    font-weight: 800;
-    color: #5C835A;
-    /*Sage Green*/
-    text-shadow: 4px 2px #f2f2f2;
-    /*Light Grey Shadow*/
+.nav-link:hover {
+  border-top: 0.25rem solid #587E7F;
+  border-bottom: 0.25rem solid #587E7F;
+  padding: 6px 0; 
+  font-weight: 400;
 }
 
 
