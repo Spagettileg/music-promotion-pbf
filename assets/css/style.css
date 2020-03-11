@@ -7,10 +7,6 @@ ul {
   list-style-type: none;
 }
 
-ul .active {
-    font-size: 1.3em;
-}
-
 h6 {
     color: #FBF27C;
 }
