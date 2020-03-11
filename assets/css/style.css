@@ -14,30 +14,6 @@ h6 {
 
 /*---------------Colours--------------*/
 
-/*---------------Alert Heading---------*/
-
-.site-wide-alert a {
-    padding: 0.2rem;
-    padding-right: 0.6rem;
-    padding-bottom: 0.3rem;
-    margin: 0.3rem;
-    color: #fafafa;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: 50%;
-    background-color: #C43232;
-    transition: background-color 0.3s ease-in-out;
-    -o-transition: background-color 0.3s ease-in-out;
-    -moz-transition: background-color 0.3s ease-in-out;
-    -webkit-transition: background-color 0.3s ease-in-out;
-}
-
-.site-wide-alert a:hover {
-    background-color: rgb(162, 42, 42);
-    /*slight contrast to #C43232 red*/
-    text-decoration: none;
-}
-
 /*------------Navbar----------------*/
 
 .nav-link {
