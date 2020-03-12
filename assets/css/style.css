@@ -125,6 +125,16 @@ h6 {
     /*Custard Yellow*/
 }
 
+.card-style {
+  /* Latest arrival cards on home page with sage green shadow border */
+  border: 0.1rem solid #5C835A;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  margin: 0.5rem;
+  max-width: 18.125rem;
+  box-shadow: 0 4px 8px 0 rgba(92, 131, 90, 0.8), 0 6px 20px 0 rgba(92, 131, 90, 0.8);
+}
+
 .main-video-container {
     margin-left: 0;
     margin-right: 0;
