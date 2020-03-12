@@ -9,6 +9,7 @@ ul {
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 h6 {
@@ -18,6 +19,11 @@ h6 {
 .listen-up,
 .just-released {
     font-size: 1.25rem;
+    border: 1px solid #FBF27C;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    box-shadow: 0 4px 8px 0 rgba(251, 242, 124, 0.9), 0 6px 20px 0 rgba(251, 242, 124, 0.9);
 }
 
 
