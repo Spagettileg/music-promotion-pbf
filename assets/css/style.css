@@ -7,6 +7,10 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 h6 {
     color: #FBF27C;
 }
@@ -102,6 +106,18 @@ h6 {
 
 .main-image-container {
     padding: 0;
+}
+
+#tour-dates {
+    background-color: #FBF27C;
+    /*Custard Yellow*/
+}
+
+#headline-news {
+    background-color: #305C5C;
+    /*Dark Green*/
+    color: #FBF27C;
+    /*Custard Yellow*/
 }
 
 .main-video-container {
