@@ -68,6 +68,21 @@ h6 {
     group image design*/
 }
 
+#video-image {
+    position: relative;
+    width: 100%;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horizontal centering of the 
+    group image design*/
+}
+
 .heyhey-image {
     position: relative;
     height: 80vh;
