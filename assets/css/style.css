@@ -2,6 +2,13 @@
 
 /*----------Special Padding / Margin / Text----------*/
 
+.row {
+    margin-left: 0;
+    /*helps remove unecessary white space on right vertical*/
+    margin-right: 0;
+    /*as above*/
+}
+
 ul {
   /* removes bullet points from unordered list */
   list-style-type: none;
@@ -85,7 +92,7 @@ h6 {
 
 .music {
     position: relative;
-    height: 120vh;
+    height: 60vh;
     background: url(../images/band/4music.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -525,3 +532,14 @@ h6 {
 
 /*--------------Media Queries---------*/
 
+@media screen and (max-width: 375px) { /*mobile*/
+    .music { /* music wallpaper extends to above footer */
+        height: 220vh;
+    }
+}
+
+@media screen and (min-width: 1200px) { /*desktop*/
+    .music { /* music wallpaper space created between bottom of container to above footer */
+        height: 65vh;
+    }
+}
