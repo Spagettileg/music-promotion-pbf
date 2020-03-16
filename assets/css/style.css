@@ -232,17 +232,6 @@ h6 {/*Custard Yellow*/
 /*------------Discography----------*/
 
 .album-cover-disco {
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    margin-bottom: 45px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.album-cover-image-music {
-    Height: 190px;
-    Width: 190px;
-    margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
