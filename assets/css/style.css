@@ -480,6 +480,27 @@ h6 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.btn-gig {
+    /*Button used for booking The Monkees*/
+    background-color: #FFFFFF;
+    /*White*/
+    border: 0.1rem solid #D41E87;
+    /*Dark Pink*/
+    color: #D41E87;
+    font-weight: 600;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+}
+
+.btn-gig:hover {
+    background-color: #D41E87;
+    /*Dark Pink*/
+    border: 0.1rem solid #D41E87;
+    color: #FAFAFA;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .btn-cta {
     border-radius: 50%;
     width: 100px;
