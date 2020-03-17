@@ -10,8 +10,8 @@
 }
 
 ul {
-  /* removes bullet points from unordered list */
-  list-style-type: none;
+    /* removes bullet points from unordered list */
+    list-style-type: none;
 }
 
 h1,
@@ -20,7 +20,8 @@ h2 {
     text-align: center;
 }
 
-h6 {/*Custard Yellow*/
+h6 {
+    /*Custard Yellow*/
     color: #FBF27C;
 }
 
@@ -29,7 +30,8 @@ h6 {/*Custard Yellow*/
 }
 
 .listen-up,
-.just-released { /*Headline news containers formatting on index.html page*/
+.just-released {
+    /*Headline news containers formatting on index.html page*/
     font-size: 1.25rem;
     border: 1px solid #FBF27C;
     border-radius: 0.5rem;
@@ -41,31 +43,36 @@ h6 {/*Custard Yellow*/
 /*---------------Colours--------------*/
 
 /* #587E7F - Duck Egg Blue */
+
 /* #FBF27C - Custard Yellow */
+
 /* #5C835A - Sage Green */
+
 /* #305C5C - Dark Green */
+
 /* #000 - Black (used for text) */
+
 /* #FFF - White (used for text) */
 
 /*------------Navbar----------------*/
 
 .nav-link {
-  transition: 0.3s ease;
-  background: #FFFFFF;
-  color: #587E7F;
-  font-size: 1.25rem;
-  text-decoration: none;
-  border-top: 0.0625rem solid #5C835A;
-  border-bottom: 0.0625rem solid #5C835A;
-  padding: 1.25rem 0;
-  margin: 0 1.25rem;
+    transition: 0.3s ease;
+    background: #FFFFFF;
+    color: #587E7F;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-top: 0.0625rem solid #5C835A;
+    border-bottom: 0.0625rem solid #5C835A;
+    padding: 1.25rem 0;
+    margin: 0 1.25rem;
 }
 
 .nav-link:hover {
-  border-top: 0.25rem solid #587E7F;
-  border-bottom: 0.25rem solid #587E7F;
-  padding: 0.375rem 0; 
-  font-weight: 400;
+    border-top: 0.25rem solid #587E7F;
+    border-bottom: 0.25rem solid #587E7F;
+    padding: 0.375rem 0;
+    font-weight: 400;
 }
 
 
@@ -185,13 +192,13 @@ h6 {/*Custard Yellow*/
 }
 
 .card-style {
-  /* Latest tour date cards on home page with sage green shadow border */
-  border: 0.1rem solid #5C835A;
-  border-radius: 0.5rem;
-  padding-bottom: 1rem;
-  margin: 0.5rem;
-  max-width: 18.125rem;
-  box-shadow: 0 4px 8px 0 rgba(92, 131, 90, 0.8), 0 6px 20px 0 rgba(92, 131, 90, 0.8);
+    /* Latest tour date cards on home page with sage green shadow border */
+    border: 0.1rem solid #5C835A;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0.5rem;
+    max-width: 18.125rem;
+    box-shadow: 0 4px 8px 0 rgba(92, 131, 90, 0.8), 0 6px 20px 0 rgba(92, 131, 90, 0.8);
 }
 
 .timeline-container {
@@ -256,8 +263,9 @@ h6 {/*Custard Yellow*/
     group image design*/
 }
 
-.myimages {
-    display: none;
+.mySlides {
+    /* No cursor appears when hovered over carousel images */
+    cursor: none;
 }
 
 /* Container for image text */
@@ -300,6 +308,7 @@ h6 {/*Custard Yellow*/
 }
 
 /* Fade animation used on images that appear in carousel design */
+
 /* in both music.html and heyhey.html pages */
 
 .fade {
@@ -331,22 +340,22 @@ h6 {/*Custard Yellow*/
 /*---------------Footer---------------------*/
 
 #footer {
-  background-color: #305C5C;
-  /*Dark Green*/
-  border-color: #305C5C;
-  /*Dark Green*/
+    background-color: #305C5C;
+    /*Dark Green*/
+    border-color: #305C5C;
+    /*Dark Green*/
 }
 
 .footer-text li a {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #FBF27C;
-  /*Custard Yellow*/
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FBF27C;
+    /*Custard Yellow*/
 }
 
 .lower-footer {
-  color: #FBF27C;
-  /*Custard Yellow*/  
+    color: #FBF27C;
+    /*Custard Yellow*/
 }
 
 /*---------------Social Media---------------*/
@@ -356,14 +365,14 @@ h6 {/*Custard Yellow*/
 .fa-facebook,
 .fa-twitter,
 .fa-youtube,
-.fa-instagram, 
+.fa-instagram,
 .fa-spotify {
-  background-color: #FBF27C;
-  /* custard yellow */    
-  font-size: 2.5rem;
-  color: #305C5C;
-  /*Dark Green*/
-  transition: all 0.5s ease-in-out;
+    background-color: #FBF27C;
+    /* custard yellow */
+    font-size: 2.5rem;
+    color: #305C5C;
+    /*Dark Green*/
+    transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     /*Opera*/
     -moz-transition: all 0.5s ease-in-out;
@@ -407,23 +416,23 @@ h6 {/*Custard Yellow*/
 /*---------------Buttons--------------*/
 
 .btn-check {
-  background-color: #FFFFFF;
-  /*White*/
-  border: 0.1rem solid #587E7F;
-  /*Duck Egg Blue*/
-  color: #587E7F;
-  font-weight: 600;
-  cursor: pointer;
-  /* Add a mouse pointer on hover */
+    background-color: #FFFFFF;
+    /*White*/
+    border: 0.1rem solid #587E7F;
+    /*Duck Egg Blue*/
+    color: #587E7F;
+    font-weight: 600;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
 }
 
 .btn-check:hover {
-  background-color: #587E7F;
-  /*Duck Egg Blue*/
-  border: 0.1rem solid #587E7F;
-  color: #FAFAFA;
-  font-weight: 600;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #587E7F;
+    /*Duck Egg Blue*/
+    border: 0.1rem solid #587E7F;
+    color: #FAFAFA;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-cta {
@@ -520,21 +529,27 @@ h6 {/*Custard Yellow*/
 
 /*--------------Media Queries---------*/
 
-@media screen and (max-width: 375px) { /*mobile*/
-    .music { /* music wallpaper extends to above footer */
+@media screen and (max-width: 375px) {
+    /*mobile*/
+    .music {
+        /* music wallpaper extends to above footer */
         height: 220vh;
     }
-    .album-cover-disco img { /* Reduce album image size for mobile devices */
+    .album-cover-disco img {
+        /* Reduce album image size for mobile devices */
         height: auto;
         max-width: 18.75rem;
     }
-    .caption-container-music { /* Reduce caption width for mobile devices */
+    .caption-container-music {
+        /* Reduce caption width for mobile devices */
         max-width: 18.75rem;
     }
 }
 
-@media screen and (min-width: 1200px) { /*desktop*/
-    .music { /* music wallpaper space created between bottom of container to above footer */
+@media screen and (min-width: 1200px) {
+    /*desktop*/
+    .music {
+        /* music wallpaper space created between bottom of container to above footer */
         height: 65vh;
     }
 }
