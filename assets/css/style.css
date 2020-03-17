@@ -221,8 +221,8 @@ h6 {/*Custard Yellow*/
 
 .sound-control {
     width: 80%;
-    max-width: 330px;
-    margin-top: 20px;
+    max-width: 20.625rem;
+    margin-top: 1.25rem;
 }
 
 .singles-cover {
@@ -260,18 +260,33 @@ h6 {/*Custard Yellow*/
     display: none;
 }
 
+/* Container for image text */
+
+.caption-container-music {
+    font-family: Mukta, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #222;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.0625rem;
+    color: #FFF;
+}
+
 .dots-circles {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 /* The dots/bullets/indicators */
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 0.9375rem;
+    width: 0.9375rem;
+    margin: 0 0.125rem;
     background-color: #587E7F;
     /*Duck Egg Blue*/
     border-radius: 50%;
@@ -508,6 +523,13 @@ h6 {/*Custard Yellow*/
 @media screen and (max-width: 375px) { /*mobile*/
     .music { /* music wallpaper extends to above footer */
         height: 220vh;
+    }
+    .album-cover-disco img { /* Reduce album image size for mobile devices */
+        height: auto;
+        max-width: 18.75rem;
+    }
+    .caption-container-music { /* Reduce caption width for mobile devices */
+        max-width: 18.75rem;
     }
 }
 
