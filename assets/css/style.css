@@ -46,7 +46,8 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4.5rem;
+    font-size: 4.4rem;
+    font-weight: 500;
     color: #FFF;
 }
 
@@ -63,6 +64,10 @@ h6 {
 /* #000 - Black (used for text) */
 
 /* #FFF - White (used for text) */
+
+/*--Colours for Booking The Monkees--*/
+
+
 
 /*------------Navbar----------------*/
 
@@ -577,6 +582,10 @@ h6 {
         height: 0.8rem;
         width: 0.8rem;
     }
+    .center {
+        /* Reduce font size for event booking text */
+        font-size: 1.15rem;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 1199px) {
@@ -585,6 +594,10 @@ h6 {
         /* discography wallpaper height reduced */
         height: 80vh;
     }
+    .center {
+        /* Reduce font size for event booking text */
+        font-size: 3.15rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -592,5 +605,13 @@ h6 {
     .music {
         /* music wallpaper space created between bottom of container to above footer */
         height: 65vh;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1415px) {
+    /*desktop*/
+    .center {
+        /* Reduce font size for event booking text */
+        font-size: 3.65rem;
     }
 }
