@@ -269,18 +269,12 @@ h6 {/*Custard Yellow*/
     width: 100%;
     max-width: 25rem;
     background-color: #222;
-    
     padding-top: 0.75rem;
     padding-bottom: 0.0625rem;
     color: #FFF;
 }
 
-.dots-circles {
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-}
-
-/* The dots/bullets/indicators */
+/* The dots/bullets/indicators that support carousel design */
 
 .dot {
     cursor: pointer;
@@ -294,13 +288,19 @@ h6 {/*Custard Yellow*/
     transition: background-color 0.6s ease;
 }
 
+.dots-circles {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
 .active,
 .dot:hover {
     background-color: #FBF27C;
     /*Custard Yellow*/
 }
 
-/* Fading animation */
+/* Fade animation used on images that appear in carousel design */
+/* in both music.html and heyhey.html pages */
 
 .fade {
     -webkit-animation-name: fade;
