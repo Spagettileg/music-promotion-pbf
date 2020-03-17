@@ -203,7 +203,8 @@ h6 {
 
 /*-------------Containers-------------*/
 
-#tour-dates {
+#tour-dates,
+#tickets {
     background-color: #FBF27C;
     /*Custard Yellow*/
 }
