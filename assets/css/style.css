@@ -153,10 +153,10 @@ h6 {
     group image design*/
 }
 
-.eventsandtickets-image {
+#eventandticket-image {
     position: relative;
-    height: 80vh;
-    background: url(../myimages/eventsandtickets.jpg) no-repeat center center fixed;
+    width: 100%;
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -223,16 +223,6 @@ h6 {
     margin: 0.5rem;
     max-width: 18.125rem;
     box-shadow: 0 4px 8px 0 rgba(92, 131, 90, 0.8), 0 6px 20px 0 rgba(92, 131, 90, 0.8);
-}
-
-.timeline-container {
-    padding: 10px;
-    margin: 0px;
-}
-
-.album-container {
-    padding: 10px;
-    margin: 0px;
 }
 
 /*----------------Video---------------*/
