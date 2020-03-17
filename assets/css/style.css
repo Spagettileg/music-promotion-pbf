@@ -544,6 +544,11 @@ h6 {
         /* Reduce caption width for mobile devices */
         max-width: 18.75rem;
     }
+    .dot {
+        /* Reduce dot size for carousel indicator for mobile devices */
+        height: 0.8rem;
+        width: 0.8rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
