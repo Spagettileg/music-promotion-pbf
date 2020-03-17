@@ -40,6 +40,18 @@ h6 {
     box-shadow: 0 4px 8px 0 rgba(251, 242, 124, 0.9), 0 6px 20px 0 rgba(251, 242, 124, 0.9);
 }
 
+.hey-hey,
+.gig-type {
+    /*Booking events containers formatting on eventsandtickets.html page*/
+    font-size: 1.25rem;
+    color: #FFF;
+    border: 1px solid #D41E87;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    box-shadow: 0 4px 8px 0 rgba(212, 30, 135, 0.9), 0 6px 20px 0 rgba(212, 30, 135, 0.9);
+}
+
 .center {
     /*centres text in celebration image under events and tickets page*/
     position: absolute;
@@ -239,6 +251,10 @@ h6 {
     margin: 0.5rem;
     max-width: 18.125rem;
     box-shadow: 0 4px 8px 0 rgba(92, 131, 90, 0.8), 0 6px 20px 0 rgba(92, 131, 90, 0.8);
+}
+
+#bookings {
+    background-color: #850D55;
 }
 
 /*----------------Video---------------*/
