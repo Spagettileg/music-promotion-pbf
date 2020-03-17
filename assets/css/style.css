@@ -604,15 +604,27 @@ h6 {
     }
 }
 
+@media screen and (min-width: 376px) and (max-width: 767px) {
+    /*mobile*/
+    .center {
+        /* Reduce font size for event booking text */
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    /*mobile*/
+    .center {
+        /* Reduce font size for event booking text */
+        font-size: 3.15rem;
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 1199px) {
     /*mobile & tablet*/
     .discography {
         /* discography wallpaper height reduced */
         height: 80vh;
-    }
-    .center {
-        /* Reduce font size for event booking text */
-        font-size: 3.15rem;
     }
 }
 
