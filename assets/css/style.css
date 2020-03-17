@@ -123,6 +123,21 @@ h6 {
     callout design*/
 }
 
+.discography {
+    position: relative;
+    height: 90vh;
+    background: url(../images/band/4music.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
+    callout design*/
+}
+
 .heyhey-image {
     position: relative;
     height: 80vh;
@@ -168,13 +183,22 @@ h6 {
     group image design*/
 }
 
-.opaque-overlay {
+.opaque-overlay-music {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(88, 126, 127, 0.85);
+}
+
+.opaque-overlay-discography {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(251, 242, 124, 0.85);
 }
 
 /*-------------Containers-------------*/
@@ -548,6 +572,14 @@ h6 {
         /* Reduce dot size for carousel indicator for mobile devices */
         height: 0.8rem;
         width: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1199px) {
+    /*mobile & tablet*/
+    .discography {
+        /* discography wallpaper height reduced */
+        height: 80vh;
     }
 }
 
