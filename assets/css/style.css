@@ -66,15 +66,21 @@ h6 {
 /*---------------Colours--------------*/
 
 /* #587E7F - Duck Egg Blue */
+
 /* #FBF27C - Custard Yellow */
+
 /* #5C835A - Sage Green */
+
 /* #305C5C - Dark Green */
+
 /* #000 - Black (used for text) */
+
 /* #FFF - White (used for text) */
 
 /*--Colours for Booking The Monkees--*/
 
 /* #850D55 - Deep Purple */
+
 /* #D41E87 - Dark Pink */
 
 /*------------Navbar----------------*/
@@ -453,7 +459,29 @@ h6 {
     color: #ffffff;
 }
 
-/*-------------Block Dividers---------*/
+/*-------------Modal---------*/
+
+.input-group-addon {
+    /* Font awesome 5 icons given improved space */
+    width: 2.125rem;
+    border: 1px solid #CED4DA;
+    text-align: center;
+}
+
+.input-group-addon-tickets {
+    /* Ticket narrative enhanced in modal form */
+    width: 4rem;
+    padding: 0.375rem;
+    border: 1px solid #CED4DA;
+    text-align: center;
+    font-weight: 600;
+}
+
+.fa-envelope,
+.fa-lock {
+    /* Increase size of FontAwesome 5 icons */
+    font-size: 1.5rem;
+}
 
 /*---------------Buttons--------------*/
 
