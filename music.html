@@ -274,8 +274,8 @@
                         <div class="col-12 col-sm-6 col-lg-4 text-center">
                             <h6 class="pt-3 text-uppercase">Trading</h6>
                             <ul class="pr-5 footer-text text-left">
-                                <li><a href="#">Tickets</a></li>
-                                <li><a href="#">Bookings</a></li>
+                                <li><a href="#TicketModal" data-toggle='modal'>Tickets</a></li>
+                                <li><a href="#BookMonkeesModal" data-toggle='modal'>Bookings</a></li>
                             </ul>
                         </div>
                         <!-- Social media links to Facebook, Twitter, You Tube, Instagram & Spotify -->
@@ -313,11 +313,107 @@
                     <div class="pt-1 pb-2 col-12 text-center lower-footer">
                         <small>© The Monkees | <span id="performing-years"></span> | Website design - Paul Friel</small>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+    <!--Book Ticket Modal-->
+        <div class="modal fade" id="TicketModal" tabindex="-1" role="dialog" aria-labelledby="myTicketModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myTicketModal">Ticket Order</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <!-- User to input their preferred email address --> 
+                    <div class="input-group text-center">
+                      <span class="input-group-addon"><i class="px-1 py-1 fas fa-envelope-square"></i></span>
+                      <input id="emailenquiry" type="text" class="form-control" placeholder="Email*" required>
+                    </div>
+                    <!-- User to key in their password. Currently not set up for formal authentication -->
+                    <div class="input-group text-center">
+                      <span class="input-group-addon"><i class="px-1 py-1 fas fa-key"></i></span>
+                      <input type="password" name="password" class="form-control" id="password" placeholder="Password*" required>
+                    </div>
+                    <div class="pt-2 checkbox">
+                      <label><input type="checkbox"> Tick box to agree for email to be shared with registered third parties</label>
+                    </div>
+                    <!-- User can request upto 8 concert tickets -->
+                    <div class="input-group">
+                      <span class="input-group-addon-tickets">Tickets </span>
+                      <input id="number" type="number" class="form-control" name="number" placeholder="No more than 8 tickets permitted" min="1" max="8" required>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-booking">Confirm!</button>
+                </form>
+                  </div>
+            </div>
+         </div>
+        </div>
+        <!--Book The Monkees Modal-->
+        <div class="modal fade" id="BookMonkeesModal" tabindex="-1" role="dialog" aria-labelledby="myBookMonkeesModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myBookMonkeesModal">Booking Order Form</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <!-- User to input their name -->    
+                  <div class="input-group text-center">
+                    <span class="input-group-addon"><i class="px-1 py-1 fas fa-user"></i></span>
+                    <input id="name" type="text" class="form-control" name="name" placeholder="Name*" required>
+                  </div>
+                  <!-- User to input their preferred email address -->
+                  <div class="input-group text-center">
+                    <span class="input-group-addon"><i class="px-1 py-1 fas fa-envelope"></i></span>
+                    <input id="emailbook" type="text" class="form-control" placeholder="Email*" required>
+                  </div>
+                  <!-- User to input their preferred booking date -->
+                  <div class="input-group text-center">
+                    <span class="input-group-addon"><i class="px-1 py-1 far fa-calendar-alt"></i></span>
+                    <input id="date" type="date" class="form-control" name="date" required>
+                  </div>
+                  <label>*Enter preferred booking date</label>
+                    <!-- User to select an event genre, where applicable -->
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio" checked>Wedding</label>
+                    </div>
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio">Anniversary</label>
+                    </div>
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio">Birthday</label>
+                    </div>
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio">Graduation</label>
+                    </div>
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio">Retirement</label>
+                    </div>
+                    <div class="input-group">
+                      <label><input type="radio" name="optradio">Other</label>
+                    </div>
+                  <!-- User can elect not to have their details shared with third parties for marketing purposes -->
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Tick box to agree for email to be shared with registered third parties</label>
+                  </div>
+                  <!-- User has option of adding specific requests for their booking -->
+                  <div class="form-group">
+                    <label for="special">Special Instructions:</label>
+                    <textarea class="form-control" rows="5" id="special"></textarea>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-booked">Confirm!</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
 <!-- Javascript code for discography carousel feature -->
 <Script>
