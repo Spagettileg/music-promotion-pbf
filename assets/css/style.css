@@ -63,6 +63,11 @@ h6 {
     color: #FFF;
 }
 
+.sold-out { 
+    /*Function replaces deprecated strike element and marks sold out concerts*/
+    text-decoration: line-through;
+}
+
 /*---------------Colours--------------*/
 
 /* #587E7F - Duck Egg Blue */
