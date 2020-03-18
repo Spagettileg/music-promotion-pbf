@@ -465,7 +465,7 @@ h6 {
     /* Font awesome 5 icons given improved space */
     width: 2.125rem;
     border: 1px solid #CED4DA;
-    text-align: center;
+    align-items: center;
 }
 
 .input-group-addon-tickets {
@@ -478,15 +478,28 @@ h6 {
 }
 
 .fa-envelope,
-.fa-lock {
+.fa-lock,
+.fa-user,
+.fa-calendar-alt {
     /* Increase size of FontAwesome 5 icons */
     font-size: 1.5rem;
+    color: #850D55;
+    /*Deep Purple*/
+}
+
+.fa-envelope-square,
+.fa-key {
+    /* Increase size of FontAwesome 5 icons */
+    font-size: 1.5rem;
+    color: #587E7F;
+    /*Duck Egg Blue*/
 }
 
 /*---------------Buttons--------------*/
 
 .btn-check,
-.btn-order {
+.btn-order,
+.btn-booking {
     /*Buttons used for checking availability & ordering concert tickets*/
     background-color: #FFFFFF;
     /*White*/
@@ -499,7 +512,8 @@ h6 {
 }
 
 .btn-check:hover,
-.btn-order:hover {
+.btn-order:hover,
+.btn-booking:hover {
     background-color: #587E7F;
     /*Duck Egg Blue*/
     border: 0.1rem solid #587E7F;
@@ -508,8 +522,9 @@ h6 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-gig {
-    /*Button used for booking The Monkees*/
+.btn-gig,
+.btn-booked {
+    /*Buttons used for making a booking enquiry and confirmed booking of The Monkees*/
     background-color: #FFFFFF;
     /*White*/
     border: 0.1rem solid #D41E87;
@@ -520,105 +535,15 @@ h6 {
     /* Add a mouse pointer on hover */
 }
 
-.btn-gig:hover {
+.btn-gig:hover,
+.btn-booked:hover {
+    /*Button changes to deep pink colour upon hover of the cursor*/
     background-color: #D41E87;
     /*Dark Pink*/
     border: 0.1rem solid #D41E87;
     color: #FAFAFA;
     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.btn-cta {
-    border-radius: 50%;
-    width: 100px;
-    text-align: center;
-}
-
-.btn-red {
-    color: #fafafa;
-    background-color: #C43232;
-    border-color: #C43232;
-    font-family: Crimson Text, serif;
-    font-weight: 300;
-}
-
-.btn-green {
-    color: #fafafa;
-    background-color: #6CB8AC;
-    border-color: #6CB8AC;
-    font-family: Crimson Text, serif;
-    font-weight: 300;
-}
-
-.btn-red:hover,
-
-.btn-red:active,
-
-.btn-red:focus,
-
-.btn-red:active:focus {
-    background-color: rgb(162, 42, 42);
-    /*slight contrast to #C43232 red*/
-    border-color: rgb(162, 42, 42);
-    /*slight contrast to #C43232 red*/
-    color: #fafafa;
-}
-
-.book-tickets-details button {
-    font-size: 14px;
-    font: bold;
-}
-
-.check-tickets-details a {
-    background-color: #C43232;
-    border-color: #C43232;
-    color: #fafafa;
-    font-family: bangers, cursive;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 50%;
-    width: 65px;
-    text-align: center;
-}
-
-.check-tickets-details a:hover,
-.book-tickets-details a:hover {
-    background-color: #6CB8AC;
-    /*Change to green once hovered*/
-    border-color: #6CB8AC;
-    color: #000000;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    /*Opera*/
-    -moz-transition: all 0.5s ease-in-out;
-    /*Windows*/
-    -webkit-transition: all 0.5s ease-in-out;
-    /*Apple*/
-}
-
-.booking-writeup button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #990099;
-    /*lilac*/
-    border-color: #990099;
-    color: #ffccff;
-    font-weight: bold;
-    border-radius: 23px;
-    width: 120px;
-}
-
-.booking-writeup button:hover {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #660066;
-    /*purple*/
-    border-color: #660066;
-    color: #fafafa;
 }
 
 /*--------------Media Queries---------*/
