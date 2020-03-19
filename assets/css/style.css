@@ -72,6 +72,7 @@ h6 {
     /*Background story 1st letter of each paragraph formatted to stand out to user*/
     font-size: 2rem;
     font-style: oblique;
+    color: #FBF27C;
 }
 
 /*---------------Colours--------------*/
@@ -254,6 +255,11 @@ h6 {
     /*Dark Green*/
     color: #FBF27C;
     /*Custard Yellow*/
+}
+
+#backstory {
+    background-color: #5C835A;
+    /*Sage Green*/
 }
 
 .card-style {
