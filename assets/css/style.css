@@ -351,6 +351,18 @@ h6 {
     color: #FFF;
 }
 
+.caption-container-heyhey {
+    font-family: Mukta, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 37.5rem;
+    background-color: #222;
+    padding-top: 0.75rem;
+    padding-bottom: 0.0625rem;
+    color: #FFF;
+}
+
 /* The dots/bullets/indicators that support carousel design */
 
 .dot {
