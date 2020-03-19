@@ -172,10 +172,10 @@ h6 {
     callout design*/
 }
 
-.heyhey-image {
+#heyhey-image {
     position: relative;
-    height: 80vh;
-    background: url(../myimages/heyhey.jpg) no-repeat center center fixed;
+    width: 100%;
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
