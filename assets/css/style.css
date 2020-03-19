@@ -68,6 +68,12 @@ h6 {
     text-decoration: line-through;
 }
 
+.backstory p::first-letter {
+    /*Background story 1st letter of each paragraph formatted to stand out to user*/
+    font-size: 2rem;
+    font-style: oblique;
+}
+
 /*---------------Colours--------------*/
 
 /* #587E7F - Duck Egg Blue */
