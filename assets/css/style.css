@@ -587,14 +587,17 @@ h6 {
         /* music wallpaper extends to above footer */
         height: 220vh;
     }
-    .album-cover-disco img {
-        /* Reduce album image size for mobile devices */
+    .album-cover-disco img,
+    .heyhey {
+        /* Reduce album & band image size for mobile devices */
         height: auto;
         max-width: 18.75rem;
     }
-    .caption-container-music {
+    .caption-container-music,
+    .caption-container-heyhey {
         /* Reduce caption width for mobile devices */
         max-width: 18.75rem;
+        padding: 0.625rem;
     }
     .dot {
         /* Reduce dot size for carousel indicator for mobile devices */
