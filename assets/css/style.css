@@ -164,7 +164,8 @@ h6 {
     callout design*/
 }
 
-.discography {
+.discography,
+.moments {
     position: relative;
     height: 90vh;
     background: url(../images/band/4music.png) no-repeat center center fixed;
@@ -233,7 +234,8 @@ h6 {
     background-color: rgba(88, 126, 127, 0.85);
 }
 
-.opaque-overlay-discography {
+.opaque-overlay-discography,
+.opaque-overlay-moments {
     position: absolute;
     top: 0;
     left: 0;
@@ -301,9 +303,11 @@ h6 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*------------Discography----------*/
+/*-Discography & HeyHey Carousel-*/
 
-.album-cover-disco {
+.album-cover-disco,
+.heyhey {
+    /*Box shadow images held on carousels in both music.html & heyhey.html files*/ 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
