@@ -95,6 +95,8 @@ h6 {
 
 /* #305C5C - Dark Green */
 
+/* #CED4DA - Light Grey */
+
 /* #000 - Black (used for text) */
 
 /* #FFF - White (used for text) */
@@ -159,37 +161,6 @@ h6 {
     group image design*/
 }
 
-.music {
-    position: relative;
-    height: 60vh;
-    background: url(../images/band/4music.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*required to manage the horixontal centering of the 
-    callout design*/
-}
-
-.discography,
-.moments {
-    position: relative;
-    height: 85vh;
-    background: url(../images/band/4music.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*required to manage the horixontal centering of the 
-    callout design*/
-}
-
 #heyhey-image {
     position: relative;
     width: 100%;
@@ -235,29 +206,12 @@ h6 {
     group image design*/
 }
 
-.opaque-overlay-music {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(88, 126, 127, 0.85);
-}
-
-.opaque-overlay-discography,
-.opaque-overlay-moments {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(251, 242, 124, 0.85);
-}
-
 /*-------------Containers-------------*/
 
 #tour-dates,
-#tickets {
+#tickets,
+#discography,
+#moments {
     background-color: #FBF27C;
     /*Custard Yellow*/
 }
@@ -269,7 +223,8 @@ h6 {
     /*Custard Yellow*/
 }
 
-#backstory {
+#backstory,
+#music {
     background-color: #5C835A;
     /*Sage Green*/
 }
@@ -286,19 +241,7 @@ h6 {
 
 #bookings {
     background-color: #850D55;
-}
-
-/*----------------Video---------------*/
-
-.video-notice {
-    margin: 5px;
-    padding: 5px;
-    font-family: Crimson Text, serif;
-    font-variant: small-caps;
-    font-size: 12px;
-    font-weight: 200;
-    text-align: center;
-    color: #C43232
+    /*Deep Purple*/
 }
 
 /*-------------Music--------------*/
@@ -508,6 +451,7 @@ h6 {
     /* Font awesome 5 icons given improved space */
     width: 2.125rem;
     border: 1px solid #CED4DA;
+    /*light grey border*/
     align-items: center;
 }
 
@@ -516,6 +460,7 @@ h6 {
     width: 4rem;
     padding: 0.375rem;
     border: 1px solid #CED4DA;
+    /*light grey border*/
     text-align: center;
     font-weight: 600;
 }
@@ -593,10 +538,6 @@ h6 {
 
 @media screen and (max-width: 375px) {
     /*mobile*/
-    .music {
-        /* music wallpaper extends to above footer */
-        height: 220vh;
-    }
     .album-cover-disco img,
     .heyhey {
         /* Reduce album & band image size for mobile devices */
@@ -633,22 +574,6 @@ h6 {
     .center {
         /* Reduce font size for event booking text */
         font-size: 3.15rem;
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 1199px) {
-    /*mobile & tablet*/
-    .discography {
-        /* discography wallpaper height reduced */
-        height: 80vh;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    /*desktop*/
-    .music {
-        /* music wallpaper space created between bottom of container to above footer */
-        height: 65vh;
     }
 }
 
