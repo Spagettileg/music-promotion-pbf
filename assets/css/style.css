@@ -68,6 +68,10 @@ h6 {
     text-decoration: line-through;
 }
 
+.backstory {
+    font-size: 1.15rem;
+}
+
 .backstory p::first-letter {
     /*Background story 1st letter of each paragraph formatted to stand out to user*/
     font-size: 2rem;
