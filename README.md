@@ -17,6 +17,9 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
     * [User & Business Objectives](#user-&-business-objectives) 
 
 2. [Technologies Applied](#technologies-applied)
+    * [Languages](#languages)
+    * [Libraries](#libraries)
+    * [Tools](#tools)
 
 3. [Summary Functions](#summary-functions)
 
@@ -64,7 +67,7 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 ### Libraries
 •	[Font Awesome](https://fontawesome.com/) to provide the icon set for Re-Boot website
 
-•	[Google Fonts](https://fonts.google.com/) provided the fonts used throughout the project
+•	[Google Fonts](https://fonts.google.com/) provided the fonts `Mukta` & `sans-serif` used throughout the project
 
 •	[jQuery](https://jquery.com/) is used to manipulate the DOM, for example buttons, and showing / hiding elements
 
