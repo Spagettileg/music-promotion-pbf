@@ -31,6 +31,28 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 
 ## UXD Considerations
 
+### User & Business Objectives
+
+#### User
+- The user belongs to a community of The Monkees enthusiasts
+- Great audio, video and written product offerings made available
+- Access to well known material to remind the user of product quality
+- Understand the background to The Monkees via all published media types
+- Happy to browse audio, video and written material, without obligation to purchase
+
+#### Business
+- Promotion of latest recordings to generate customer demand 
+- Advanced notice of concert dates to help leverage customer interest. Early bookings is the business objective here 
+- Links provided for venues for the user to understand the quality environment to which the concert will be performed 
+- Making The Monkees available for private bookings to create an additional revenue stream  
+- Social media link access to further promote The Monkees and encourage fan intra-communications
+
+#### Next Stage Generation
+- Increase product density through expanding scope of pop memorabilia
+- Leverage footfall data to attract commercial online advertising, with resultaqnt revenues used to maintain and grow website
+- Affiliate with professional events organisations to encourage new musical talent to feature under the wing of The Monkees
+- Explore new social media channels to promote 'The Monkees'
+
 ## Information Architecture
 
 ## Technologies Applied
