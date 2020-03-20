@@ -14,20 +14,19 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 ## Table of Contents
 
 1. [UXD Considerations](#uxd-considerations)
+    * [User & Business Objectives](#user-&-business-objectives) 
 
-2. [Information Architecture](#information-architecture)
+2. [Technologies Applied](#technologies-applied)
 
-3. [Technologies Applied](#technologies-applied)
+3. [Summary Functions](#summary-functions)
 
-4. [Summary Functions](#summary-functions)
+4. [Features](#features)
 
-5. [Features](#features)
+5. [Tests](#tests)
 
-6. [Tests](#tests)
+6. [Deployment](#deployment)
 
-7. [Deployment](#deployment)
-
-8. [Credits](#credits)
+7. [Credits](#credits)
 
 ## UXD Considerations
 
@@ -53,9 +52,38 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 - Affiliate with professional events organisations to encourage new musical talent to feature under the wing of The Monkees
 - Explore new social media channels to promote 'The Monkees'
 
-## Information Architecture
-
 ## Technologies Applied
+
+### Languages
+•	[HTML](https://html.spec.whatwg.org/multipage/) used as the markup language
+
+•	[CSS3](https://www.w3.org/Style/CSS/) used to style the HTML
+
+•	[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) used mostly for DOM manipulation
+
+### Libraries
+•	[Font Awesome](https://fontawesome.com/) to provide the icon set for Re-Boot website
+
+•	[Google Fonts](https://fonts.google.com/) provided the fonts used throughout the project
+
+•	[jQuery](https://jquery.com/) is used to manipulate the DOM, for example buttons, and showing / hiding elements
+
+•	[Bootstrap](https://www.bootstrapcdn.com/) to enable ease of website responsiveness and simplify coding structure
+
+### Tools
+•	[AWS Cloud9](https://aws.amazon.com/cloud9/) a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
+
+•	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design.
+
+•	[Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+•	[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+•	[Jigsaw - CSS validation](https://jigsaw.w3.org/css-validator/) this validator checks the markup validity of CSS style sheet and ensure coding convention is upheld
+
+•	[JS Hint](https://jshint.com/) a tool that helps to detect errors and potential problems in the javascript code
+
+•	[W3C - HTML validation](https://validator.w3.org/) this validator checks the markup validity of HTML web documents
 
 ## Summary Functions
 
