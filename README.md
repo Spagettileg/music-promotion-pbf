@@ -161,27 +161,31 @@ This project was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/clo
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/music-promotion-pbf), the following steps were taken:
 
-Log into GitHub.
-From the list of repositories on the screen, select AJGreaves/portrait-artist.
-From the menu items near the top of the page, select Settings.
-Scroll down to the GitHub Pages section.
-Under Source click the drop-down menu labelled None and select Master Branch
-On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. Log into GitHub
+2. From the list of repositories on the screen, select **Spagettileg/music-promotions-pbf**
+3. From the menu items near the top of the page, select **Settings**
+4. Scroll down to the **GitHub Pages** section
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website
+
 At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
 
-How to run this project locally
+### How to run this project locally
 To clone this project from GitHub:
 
-Follow this link to the Project GitHub repository.
-Under the repository name, click "Clone or download".
-In the Clone with HTTPs section, copy the clone URL for the repository.
-In your local IDE open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-git clone https://github.com/USERNAME/REPOSITORY
-Press Enter. Your local clone will be created.
-Further reading and troubleshooting on cloning a repository from GitHub here.
+1. Follow this link to the [Project GitHub repository](https://github.com/Spagettileg/music-promotion-pbf)
+2. Under the repository name, click **"Clone or download"**
+3. In the **Clone with HTTPs section**, copy the clone URL for the repository
+4. In your local IDE open **Ubuntu Bash**
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type `git clone`, and then paste the URL you copied in Step 3
+
+`git clone https://github.com/USERNAME/REPOSITORY`
+
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
