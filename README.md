@@ -53,6 +53,33 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 - Affiliate with professional events organisations to encourage new musical talent to feature under the wing of The Monkees
 - Explore new social media channels to promote 'The Monkees'
 
+### Wireframes
+
+### User Stories
+
+* Headline news and important updates on concerts to be made readily available
+* Information on date of concert, concert venue, ticket prices and door opening time is required
+* A picture of the venue togther with access to the venues website will help understand more of what the venue has to offer
+* Access to the bands social media sites will be helpful to understand news and views from fellow Monkees fans
+* To view a great selection of The Monkees videos and hear to selection of famous audio clips helps create a fantastic frame of mind
+* I want to understand the chronology of the The Monkees with the help of a discography
+* Information on The Monkees backstory will help users understand where their journey to pop legends started and developed
+* A montage of images and quotes would bring the band to life and allow the user to be very much part of The Monkees journey to stardom
+* When purchasing a ticket I want to understand the ticket status i.e. available or sold
+* I would like the band to be available for private bookings  
+
+
+### CSS Framework
+
+### Colour Palette
+
+### Typography
+
+### Icon Graphics
+
+### Navbar design
+
+
 ## Technologies Applied
 
 ### Languages
@@ -118,7 +145,6 @@ Another full colour image of the band is displayed showing a spirit of celebrati
 
 The user can scroll to end of page to take up an opportunity to book the band for a private event i.e. wedding, anniversary, birthday, etc. A button has been created in conjunction with a modal to help the user complete a booking enquiry form. The form request name, email, preferred booking date, type of event and any special instructions. A tick box has been added to request user permission to share their email address. Again, providing an essential user assurance. No password required here, as we’re dealing with a user booking enquiry and not a formal booking. The latter would represent an additional build in web-design.
 
-***
 ### Features left to implement
 -	Add conditional formatting to password data entry in modal design
 -	Create links from band’s albums in music.html to itunes, serving to increase commercial capability of web-site design 
@@ -127,8 +153,6 @@ The user can scroll to end of page to take up an opportunity to book the band fo
 -	Build a link for ticket orders and band bookings to a `postgreSQL` database with `Stripe` payment functionality
 -	Add a web hit counter to understand popularity of website
 -	Create a fans feedback / blog function to help promote continuous improvement of UXD (User Experience Design) for user enjoyment and UCD (User Centred Design) to create great products 
-
-***
 
 ## Tests
 A user testing matrix has been produced in MS Excel, but saved as .png to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
@@ -190,14 +214,6 @@ Further reading and troubleshooting on cloning a repository from [GitHub](https:
 ## Credits
 
 
-***
-
-### Prerequisite
-This software has been designed to run on Chrome, Edge, Firefox, Safari & Opera. Internet Explorer is now considered obsolete and out of scope for this project.
-
-***
-
-### Design
 
 ##### Colour palette used:
 Inspiration of the choice of colours originated from the majority of The Monkees album covers. 
