@@ -110,7 +110,13 @@ All pages              | bookings                            | `fas fa-envelope`
 All pages              | bookings                            | `far fa-calendar-alt`
 
 ### Navbar design
+For tablet and desktop views, the navbar offers 5 functions on show. For mobile devices, all the same options collapse into a 'hamburger' design. 
 
+- Navbar Brand
+- Home
+- Music
+- HeyHey
+- Events and Tickets
 
 ## Technologies Applied
 
