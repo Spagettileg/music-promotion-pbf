@@ -68,10 +68,23 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 * When purchasing a ticket I want to understand the ticket status i.e. available or sold
 * I would like the band to be available for private bookings  
 
-
 ### CSS Framework
+Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
+Colours used in this project were sourced [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attrbutes of The Monkees through energy, intelligence, country rock and psychedelia
+
+Colour         | Hex Code
+---------------|----------
+Duck Egg Blue  | #587E7F
+Custard Yellow | #FBF27C
+Sage Green     | #5C835A
+Dark Green     | #305C5C
+Light Grey     | #CED4DA
+Black          | #000
+White          | #FFF
+Deep Purple    | #850D55
+Dark Pink      | #D41E87
 
 ### Typography
 
