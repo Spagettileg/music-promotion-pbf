@@ -87,8 +87,27 @@ Deep Purple    | #850D55
 Dark Pink      | #D41E87
 
 ### Typography
+[Mukta](https://fonts.google.com/) & [Sans Serif](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon Graphics
+Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primarily to support information page headers
+
+Page                   | Function                            | Font  
+-----------------------|------------------------------------ |-------
+index.html             | listen up                           | `fas fa-headphones`
+index.html             | tour date for 2021 - title          | `fas fa-broadcast-tower`
+index.html             | tour date for 2021 - countries      | `fas fa-ticket-alt`
+index.html             | concert ticket - location           | `fas fa-map-marker-alt`    
+index.html             | concert ticket - standing price     | `fas fa-hand-holding-usd`
+index.html             | concert ticket - seating price      | `fas fa-hand-holding-usd`
+index.html             | concert ticket - doors open         | `far fa-clock`
+eventsandtickets.html  | booking the monkees - heyhey        | `fas fa-exclamation-triangle`
+eventsandtickets.html  | booking the monkees - gigs played   | `fas fa-play`
+All pages              | tickets                             | `fas fa-envelope-square`
+All pages              | tickets                             | `fas fa-key`
+All pages              | bookings                            | `fas fa-user`
+All pages              | bookings                            | `fas fa-envelope`
+All pages              | bookings                            | `far fa-calendar-alt`
 
 ### Navbar design
 
