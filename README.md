@@ -211,7 +211,7 @@ The user can scroll to end of page to take up an opportunity to book the band fo
 -	Create a fans feedback / blog function to help promote continuous improvement of UXD (User Experience Design) for user enjoyment and UCD (User Centred Design) to create great products 
 
 ## Tests
-A user [testing matrix](https://github.com/Spagettileg/music-promotion-pbf/blob/master/testing/usertestingfinal.xlsx) has been produced in MS Excel, but saved as .png to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
+A user [testing matrix](https://github.com/Spagettileg/music-promotion-pbf/blob/master/testing/usertestingfinal.zip) has been produced in MS Excel, but saved as .png to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
 
 ### Compatibility
 The following browsers were used in testing the Re-Boot application. Internet Explorer was out of scope for testing due to obsolete capability
