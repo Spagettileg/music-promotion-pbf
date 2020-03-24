@@ -69,6 +69,9 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 - Explore new social media channels to promote 'The Monkees'
 
 ### Wireframes
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Re-Boot' website responsivenesson mobile, tablet and desktop devices.
+
+•	[music-promotions-pbf](https://github.com/Spagettileg/reboot/blob/master/wireframes/homev1.zip)
 
 ### User Stories
 
