@@ -15,6 +15,13 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
 
 1. [UXD Considerations](#uxd-considerations)
     * [User & Business Objectives](#user-&-business-objectives) 
+    * [Wireframes](#wireframes)
+    * [User Stories](#user-stories)
+    * [CSS Framework](#css-framework)
+    * [Colour Palette](#colour-palette)
+    * [Typography](#typography)
+    * [Icon Graphics](#icon-graphics)
+    * [Navbar Design](#navbar-design)
 
 2. [Technologies Applied](#technologies-applied)
     * [Languages](#languages)
@@ -22,12 +29,20 @@ Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.v
     * [Tools](#tools)
 
 3. [Features](#features)
+    * [Features left to implement](#features-left-to-implement)  
 
 4. [Tests](#tests)
+    * [Compatibility](#compatibility)
+    * [Test Observations](#test-observations)
 
 5. [Deployment](#deployment)
+    * [How to run this project locally](#how-to-run-this-project-locally) 
 
 6. [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Assets](#assets)
+    * [Acknowledgements](#acknowledgements)
 
 ## UXD Considerations
 
@@ -169,14 +184,14 @@ Video downloads of ‘Good Times’, 'The Monkees with Johnny Cash' and 'The Mon
 
 A discography completes the last section of the page, built in JS Bootstrap carousel. Both a timeline and corresponding band album covers gives the user a sense of scope and understanding of the music produced by the band. A minimal design was created by removing page indicator numbers and manual controls to ensure automated reviewing of the bands’ 15 images and narrative.
 
-### hey hey!.html
+### heyhey.html
 This page is designed to introduce the user to the band members, understand their background and to share some humour with a random selection of quotes.
 
 A full colour image of the band is on show from the header through to the first container ‘background story’. I believe the image shown captures great energy from the band and I wanted this energy to transfer to the user as a means becoming more interested in the page content. The background story provides an insight to how the band came together and notable milestones throughout years of performing.
 
 A carousel is positioned in the last section of this page, offering the user the opportunity to view more images of the band, introduction to band members and share band member quotes too.  The nine image slides are timed to fade (5 seconds) and auto change to the next scheduled slide. 
 
-### Events & Tickets.html
+### eventsandtickets.html
 This page is designed to help the user view ticket availability, book tickets and book the band.
 
 Another full colour image of the band is displayed showing a spirit of celebration and precedes the ‘Book Tickets’ section. To book tickets, the user will have been steered from the home page or directly clicked into this web-page. A modal has been added to each concert booking button to help the user by requesting their email and number of tickets required. Password security and a tick box requesting user permission to share their email address provides an essential user assurance.
@@ -250,9 +265,79 @@ To clone this project from GitHub:
 Further reading and troubleshooting on cloning a repository from [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
+### Content
+The Monkees touring date for US, New Zealand and Australia - Ticketmaster
 
+The Monkees’ background story – Wikipedia
 
+Carousel code copied and reworked to support own heyhey.html & CSS code - https://www.w3schools.com
 
-##### Colour palette used:
-Inspiration of the choice of colours originated from the majority of The Monkees album covers. 
+Social media hex colour codes - www.codeofcolors.com
 
+### Media
+#### Project Assets
+All audio sounds – Code Institute
+-	Clarksville.mp3
+-	DaydreamBeliever.mp3
+-	ImABeliever.mp3
+-	SteppingStone.mp3
+
+#### Images – Code Institute
+-	dj.jpg
+-	mn.jpg
+-	md.jpg
+-	pt.jpg
+-	monkees.jpg
+
+### Assets
+
+Singles covers:
+-	Last Train to Clarksville – discogs.com
+-	Daydream Believer – discogs.com	
+-	I’m a Believer – discogs.com
+-	Stepping Stone – 45cat.com 
+
+themonkeeslogo.jpg – pinterest.com
+
+Album covers - https://www.allmusic.com
+-	20th Anniversary Tour 1986.jpg
+-	Birds Bees & Monkees 1968.jpg
+-	Changes 1970.jpg
+-	Concert in Japan 1996.jpg
+-	Good Times 2016.jpg
+-	Head 1968.jpg
+-	Headquarters 1967.jpg
+-	Instant Replay 1969.jpg
+-	Justus 1996.jpg
+-	Live Summer Tour 2002.jpg
+-	More of The Monkees 1967.jpg
+-	PAC&J Ltd 1967.jpg
+-	Pool it 1987.jpg
+-	The Monkees 1966.jpg
+-	The Monkees Present 1969.jpg 
+
+[‘Good Times’](https://youtu.be/T5Q_FbVf0Cs) video – You Tube 
+
+['The Monkees with Johnny Cash'](https://www.youtube.com/watch?v=s3iMP0SFIqA) video - You Tube
+
+['The Monkees Screen Tests'](https://www.youtube.com/watch?v=63nhSFFFfJ4&t=84s) video - You Tube
+
+heyhey.png – https://www.grunge.com/
+
+celebration.png – https://www.bookeventz.com/blog/perfect-freshers-party-plan/
+
+eventandticket.png – https://societyofrock.com/
+
+### Acknowledgements 
+Theo Despoudis (Mentor) - For his guidance with the process of delivering my project and reminders for keeping the code simple, yet effective. 
+
+Slack Community and the following experts to keep me honest.
+- @Eventyred_Mentor – Simen Daehlin
+- @Shane Muirhead – Shane Muirhead
+- @Abonello_Lead – Anthony Bonello
+- @JoWings_Lead – Joke Heyndels
+- @Spence_Mentor – Spencer Barribal
+
+Michael Park (Code Institute Tutor) – For his support and guidance on responsive web design.
+
+Special thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, training delivery and generating good confidence to coding.
