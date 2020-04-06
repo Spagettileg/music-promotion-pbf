@@ -7,7 +7,7 @@ Fans can also access a discography that offers a full list of their albums, sele
 
 Link to the live website [here](https://spagettileg.github.io/music-promotion-pbf/)
 
-Link to AWS Cloud9 Development [here](https://2e903ebe68914745a80370978dd5ab54.vfs.cloud9.us-east-1.amazonaws.com/_static/index.html)
+Link to AWS Cloud9 Development [here](https://github.com/Spagettileg/music-promotion-pbf)
 
 ***
 
