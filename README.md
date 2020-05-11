@@ -69,7 +69,7 @@ Link to AWS Cloud9 Development [here](https://github.com/Spagettileg/music-promo
 - Explore new social media channels to promote 'The Monkees'
 
 ### Wireframes
-My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Re-Boot' website responsivenesson mobile, tablet and desktop devices.
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Re-Boot' website responsiveness on mobile, tablet and desktop devices.
 
 •	[music-promotions-pbf](https://github.com/Spagettileg/music-promotion-pbf/blob/master/wireframe/music-promotions-pbf_final.zip)
 
@@ -90,7 +90,7 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
-Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attrbutes of The Monkees through energy, intelligence, country rock and psychedelia
+Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attributes of The Monkees through energy, intelligence, country rock and psychedelia
 
 Colour         | Hex Code
 ---------------|----------
