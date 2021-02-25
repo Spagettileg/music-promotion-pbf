@@ -534,6 +534,52 @@ h6 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.btn-up {
+    /*top of page button found at the bottom of all the webpages*/
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #1A1A1A;
+    /*Almost Black*/
+    border: 2px solid #1A1A1A;
+    color: #FBF27C;
+    /*Custard Yellow*/
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 3rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-up:hover {
+    /* top of page button change colour when hovered & clicked */
+    color: #FBF27C;
+    transform: scale(1.25);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    /*Opera*/
+    -moz-transition: all 0.5s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out;
+    /*Apple*/
+}
+
+.fa-angle-double-up:hover {
+    transform: scale(1.25);
+    color: #FBF27C;
+}
+
+.move-top {
+    z-index: 99;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+    display: none;
+}
+
+
 /*--------------Media Queries---------*/
 
 @media screen and (max-width: 375px) {
